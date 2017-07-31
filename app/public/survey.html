@@ -29,47 +29,38 @@
         </div>
 
         <div class="row">
-            <p class="col-xs-12 text-muted text-center">Please fill in below. If returning click <span><a href="#">REJOIN</a></span>.</p>
+            <p class="col-xs-12 text-muted text-center">Please answer the following questions to submit your friend profile. Or click to go <span><a href="#">HOME</a></span>.</p>
         </div>
 
         <form>
             <div class="well">
                 <div class="row">
                     <div class="col-xs-12 form-group">
-                        <label for="locationSelect">Location</label>
-                        <select class="form-control" id="locationSelect1">
-                            <option>Location 1</option>
-                            <option>Location 2</option>
-                            <option>Location 3</option>
+                        <label for="question_1">Location</label>
+                        <select class="form-control" id="question_1">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 form-group">
+                        <label for="question_2">Location</label>
+                        <select class="form-control" id="question_2">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
                         </select>
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class = "col-xs-5 form-group">
-                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="First Name">
-                        <!--<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
-                    </div>
-                    <!--<div class = "col-xs-2 form-group">
-                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Middle Initial">
-                        <!--<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
-                    </div>-->
-                    <div class = "col-xs-5 form-group">
-                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Last Name">
-                        <!--<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
-                    </div>
-                </div>
+                
 
-                <div class = "row">
-                    <div class="col-xs-7 form-group">
-                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email">
-                        <small id="emailHelp" class="form-text text-muted text-center">We'll never share your email with anyone.</small>
-                    </div>
-                    <div class="col-xs-5 form-group">
-                        <input type="text" class="form-control" placeholder="ID # (if provided)">
-                    </div>
-                    
-                </div>
 
                 <div class="row">
                     <div class="col-xs-2">
@@ -80,17 +71,23 @@
         </form>
                 <br><br><br><br><br><br><br><br><br><br><br>
 
-                <!--<div class="row">
-                    
-                </div>-->
+               
 
             
 
         
     </div>
-<br><br><br><br>
-<p class="text-center">powered by: <b>EASyView® Virtual Interview</b></p>
-<p class="text-center">© 2017 Employment Technologies Corporation. All rights reserved.</p>
 </body>
+
+
+<!--<script type="text/javascript">
+
+$("#goToSurvey").on("click", function(){
+    console.log('survey');
+    $.post("survey");
+});
+
+
+</script>-->
 
 </html>
